@@ -1,0 +1,35 @@
+.title {
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+}
+.paragraph {
+  font-size: 25px;
+  font-weight: 700;
+  color: #242424;
+}
+
+.titleDestinos {
+  font-size: 50px;
+  font-weight: 700;
+  color: #242424;
+  margin-top: 16px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 580px) {
+  .title {
+    font-size: 70px;
+  }
+  .titleDestinos {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 55px;
+  }
+  .titleDestinos {
+    font-size: 25px;
+  }
+}
